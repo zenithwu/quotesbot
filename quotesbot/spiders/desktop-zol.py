@@ -1,10 +1,8 @@
 # -*- coding: utf-8 -*-
 import os
-import re
-import urllib2
+from urlparse import urljoin
 
 import scrapy
-from urlparse import urljoin
 
 from quotesbot.items import ImgItem
 
